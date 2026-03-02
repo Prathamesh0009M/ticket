@@ -107,5 +107,8 @@ int main()
          << endl;
     B->showBookingDetails();
 
+    delete u1;
+    delete e, e2, e3, seat, currentEvent, B, payment, orchastor;
+    
     return 0;
 }
